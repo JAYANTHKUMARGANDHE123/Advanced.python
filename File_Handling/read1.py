@@ -1,0 +1,6 @@
+f = open('sample.txt','r')
+s = f.read()
+print('s = ',s)
+s1 = f.read()
+print('s1 = ',s1)
+f.close()

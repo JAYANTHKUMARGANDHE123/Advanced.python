@@ -1,0 +1,6 @@
+f = open('sample.txt','r')
+s = f.read(9)
+print(s,end='')
+print('file pointer @ :',f.tell())
+print(f.read())
+f.close()

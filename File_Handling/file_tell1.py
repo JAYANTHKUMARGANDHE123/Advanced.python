@@ -1,0 +1,6 @@
+f = open('sample.txt','r')
+print(f.tell())
+s = f.read(3)
+print(s)
+print(f.tell())
+f.close()

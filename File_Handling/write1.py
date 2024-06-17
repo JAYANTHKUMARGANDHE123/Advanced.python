@@ -1,0 +1,8 @@
+f = open('sample.txt','w')
+f.write('srikanth\n')
+f.write('jagadeesh\n')
+f.write('srinath\n')
+f.write('lokesh\n')
+f.write('rajendra\n')
+f.write('jagadeeshgatta21@gmail.com')
+f.close()
